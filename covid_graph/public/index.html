@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/dist/stylesheet.css'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="page1">
+
+        <div class="main_container">
+            <div class="header">
+
+                <h1>Covid-19  <br> analyzes</h1>
+                <h2> <span id='day'> </span> <span id='month'> </span> <span id='date'> </span></h2>
+
+            </div>
+        </div>
+        
+        <div class="centergrid">
+
+            <div class="box_card">
+
+                <div class="card">
+                    <div class="label">
+                        <h3 class='subtitle'>Total Deaths</h3>
+                        <p><span id='TotalDeath'></span></p>
+                    </div>
+                    
+                </div>
+
+
+                <div class="card1">
+                    <div class="label1">
+                        <h3 class='h1'>Total Cases</h3>
+                        <p class='p1'><span class ='span1'id='Totalcases'> </span></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+          
+       
+            
+    </div>
+    <div class="page2">
+        <div class="chartcontainer"></div>
+            <div class="chartrank">
+                <canvas id="rankstate"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>NEVEU Jasmin</p>
+        <p>Découverte de Chart.js + API</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
